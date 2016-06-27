@@ -8,4 +8,4 @@ angular.module('orgReposApp')
     templateUrl: 'client/main/main.view.ng.html',
     controller: 'MainCtrl'
   });
-});
+}); 
