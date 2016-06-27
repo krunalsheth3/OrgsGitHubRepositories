@@ -1,0 +1,7 @@
+(function(){'use strict';
+
+angular.module('orgReposApp').controller('AboutCtrl', ["$scope", function ($scope) {
+  $scope.viewName = 'About';
+}]);
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9jbGllbnQvYWJvdXQvYWJvdXQuY29udHJvbGxlci5uZy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxZQUFZLENBQUM7O0FBRWIsT0FBTyxDQUFDLE1BQU0sQ0FBQyxhQUFhLENBQUMsQ0FDNUIsVUFBVSxDQUFDLFdBQVcsRUFBRSxVQUFTLE1BQU0sRUFBRTtBQUN4QyxRQUFNLENBQUMsUUFBUSxHQUFHLE9BQU8sQ0FBQztDQUMzQixDQUFDLENBQUMiLCJmaWxlIjoiL2NsaWVudC9hYm91dC9hYm91dC5jb250cm9sbGVyLm5nLmpzIiwic291cmNlc0NvbnRlbnQiOlsiJ3VzZSBzdHJpY3QnO1xyXG5cclxuYW5ndWxhci5tb2R1bGUoJ29yZ1JlcG9zQXBwJylcclxuLmNvbnRyb2xsZXIoJ0Fib3V0Q3RybCcsIGZ1bmN0aW9uKCRzY29wZSkge1xyXG4gICRzY29wZS52aWV3TmFtZSA9ICdBYm91dCc7XHJcbn0pOyJdfQ==
+}).call(this);

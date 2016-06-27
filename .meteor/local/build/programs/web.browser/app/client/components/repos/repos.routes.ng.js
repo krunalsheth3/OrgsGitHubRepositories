@@ -1,0 +1,11 @@
+(function(){'use strict';
+
+angular.module('orgReposApp').config(["$stateProvider", function ($stateProvider) {
+  $stateProvider.state('repos-list', {
+    url: '/repos/:repoId',
+    templateUrl: 'client/components/repos/repos-list.view.ng.html',
+    controller: 'ReposListCtrl'
+  });
+}]);
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9jbGllbnQvY29tcG9uZW50cy9yZXBvcy9yZXBvcy5yb3V0ZXMubmcuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsWUFBWSxDQUFBOztBQUVaLE9BQU8sQ0FBQyxNQUFNLENBQUMsYUFBYSxDQUFDLENBQzVCLE1BQU0sQ0FBQyxVQUFTLGNBQWMsRUFBRTtBQUMvQixnQkFBYyxDQUNiLEtBQUssQ0FBQyxZQUFZLEVBQUU7QUFDbkIsT0FBRyxFQUFFLGdCQUFnQjtBQUNyQixlQUFXLEVBQUUsaURBQWlEO0FBQzlELGNBQVUsRUFBRSxlQUFlO0dBQzVCLENBQUMsQ0FBQTtDQUNILENBQUMsQ0FBQyIsImZpbGUiOiIvY2xpZW50L2NvbXBvbmVudHMvcmVwb3MvcmVwb3Mucm91dGVzLm5nLmpzIiwic291cmNlc0NvbnRlbnQiOlsiJ3VzZSBzdHJpY3QnXHJcblxyXG5hbmd1bGFyLm1vZHVsZSgnb3JnUmVwb3NBcHAnKVxyXG4uY29uZmlnKGZ1bmN0aW9uKCRzdGF0ZVByb3ZpZGVyKSB7XHJcbiAgJHN0YXRlUHJvdmlkZXJcclxuICAuc3RhdGUoJ3JlcG9zLWxpc3QnLCB7XHJcbiAgICB1cmw6ICcvcmVwb3MvOnJlcG9JZCcsXHJcbiAgICB0ZW1wbGF0ZVVybDogJ2NsaWVudC9jb21wb25lbnRzL3JlcG9zL3JlcG9zLWxpc3Qudmlldy5uZy5odG1sJyxcclxuICAgIGNvbnRyb2xsZXI6ICdSZXBvc0xpc3RDdHJsJ1xyXG4gIH0pXHJcbn0pOyJdfQ==
+}).call(this);

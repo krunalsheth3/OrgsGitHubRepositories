@@ -1,0 +1,20 @@
+{
+  "generator-angular-meteor": {
+    "filters": {
+      "js": true,
+      "html": true,
+      "less": true,
+      "pagination": true,
+      "framework": "material",
+      "bower": false,
+      "auth": true,
+      "oauth": true,
+      "googleAuth": true,
+      "appname": "orgReposApp",
+      "projectname": "orgRepos",
+      "modules": "'angular-meteor',\n  'ui.router',\n  'ngMaterial',\n  'angularUtils.directives.dirPagination',\n  'accounts.ui'",
+      "usedBower": true
+    },
+    "appname": "orgRepos"
+  }
+}

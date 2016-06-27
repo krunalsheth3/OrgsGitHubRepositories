@@ -1,0 +1,5 @@
+(function(){Meteor.startup(function () {});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9zZXJ2ZXIvc3RhcnR1cC9jb21taXRzLmxvYWQuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsTUFBTSxDQUFDLE9BQU8sQ0FBQyxZQUFXLEVBR3pCLENBQUMsQ0FBQyIsImZpbGUiOiIvc2VydmVyL3N0YXJ0dXAvY29tbWl0cy5sb2FkLmpzIiwic291cmNlc0NvbnRlbnQiOlsiTWV0ZW9yLnN0YXJ0dXAoZnVuY3Rpb24oKSB7XHJcblxyXG4gXHJcbn0pOyJdfQ==
+}).call(this);
+
+//# sourceMappingURL=commits.load.js.map

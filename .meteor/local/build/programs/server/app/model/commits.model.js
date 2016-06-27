@@ -1,0 +1,17 @@
+(function(){Commits = new Mongo.Collection('commits');
+
+Commits.allow({
+  insert: function insert(userId, commit) {
+    return true;
+  },
+  update: function update(userId, commit, fields, modifier) {
+    return true;
+  },
+  remove: function remove(userId, commit) {
+    return true;
+  }
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9tb2RlbC9jb21taXRzLm1vZGVsLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLE9BQU8sR0FBRyxJQUFJLEtBQUssQ0FBQyxVQUFVLENBQUMsU0FBUyxDQUFDLENBQUM7O0FBRTFDLE9BQU8sQ0FBQyxLQUFLLENBQUM7QUFDWixRQUFNLEVBQUUsZ0JBQVMsTUFBTSxFQUFFLE1BQU0sRUFBRTtBQUMvQixXQUFPLElBQUksQ0FBQztHQUNiO0FBQ0QsUUFBTSxFQUFFLGdCQUFTLE1BQU0sRUFBRSxNQUFNLEVBQUUsTUFBTSxFQUFFLFFBQVEsRUFBRTtBQUNqRCxXQUFPLElBQUksQ0FBQztHQUNiO0FBQ0QsUUFBTSxFQUFFLGdCQUFTLE1BQU0sRUFBRSxNQUFNLEVBQUU7QUFDL0IsV0FBTyxJQUFJLENBQUM7R0FDYjtDQUNGLENBQUMsQ0FBQyIsImZpbGUiOiIvbW9kZWwvY29tbWl0cy5tb2RlbC5qcyIsInNvdXJjZXNDb250ZW50IjpbIkNvbW1pdHMgPSBuZXcgTW9uZ28uQ29sbGVjdGlvbignY29tbWl0cycpO1xyXG5cclxuQ29tbWl0cy5hbGxvdyh7XHJcbiAgaW5zZXJ0OiBmdW5jdGlvbih1c2VySWQsIGNvbW1pdCkge1xyXG4gICAgcmV0dXJuIHRydWU7XHJcbiAgfSxcclxuICB1cGRhdGU6IGZ1bmN0aW9uKHVzZXJJZCwgY29tbWl0LCBmaWVsZHMsIG1vZGlmaWVyKSB7XHJcbiAgICByZXR1cm4gdHJ1ZTtcclxuICB9LFxyXG4gIHJlbW92ZTogZnVuY3Rpb24odXNlcklkLCBjb21taXQpIHtcclxuICAgIHJldHVybiB0cnVlO1xyXG4gIH1cclxufSk7Il19
+}).call(this);
+
+//# sourceMappingURL=commits.model.js.map

@@ -1,0 +1,11 @@
+(function(){'use strict';
+
+angular.module('orgReposApp').config(["$stateProvider", function ($stateProvider) {
+  $stateProvider.state('about', {
+    url: '/about',
+    templateUrl: 'client/about/about.view.ng.html',
+    controller: 'AboutCtrl'
+  });
+}]);
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9jbGllbnQvYWJvdXQvYWJvdXQucm91dGVzLm5nLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLFlBQVksQ0FBQTs7QUFFWixPQUFPLENBQUMsTUFBTSxDQUFDLGFBQWEsQ0FBQyxDQUM1QixNQUFNLENBQUMsVUFBUyxjQUFjLEVBQUU7QUFDL0IsZ0JBQWMsQ0FDYixLQUFLLENBQUMsT0FBTyxFQUFFO0FBQ2QsT0FBRyxFQUFFLFFBQVE7QUFDYixlQUFXLEVBQUUsaUNBQWlDO0FBQzlDLGNBQVUsRUFBRSxXQUFXO0dBQ3hCLENBQUMsQ0FBQztDQUNKLENBQUMsQ0FBQyIsImZpbGUiOiIvY2xpZW50L2Fib3V0L2Fib3V0LnJvdXRlcy5uZy5qcyIsInNvdXJjZXNDb250ZW50IjpbIid1c2Ugc3RyaWN0J1xyXG5cclxuYW5ndWxhci5tb2R1bGUoJ29yZ1JlcG9zQXBwJylcclxuLmNvbmZpZyhmdW5jdGlvbigkc3RhdGVQcm92aWRlcikge1xyXG4gICRzdGF0ZVByb3ZpZGVyXHJcbiAgLnN0YXRlKCdhYm91dCcsIHtcclxuICAgIHVybDogJy9hYm91dCcsXHJcbiAgICB0ZW1wbGF0ZVVybDogJ2NsaWVudC9hYm91dC9hYm91dC52aWV3Lm5nLmh0bWwnLFxyXG4gICAgY29udHJvbGxlcjogJ0Fib3V0Q3RybCdcclxuICB9KTtcclxufSk7Il19
+}).call(this);

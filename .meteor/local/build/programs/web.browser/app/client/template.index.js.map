@@ -1,0 +1,1 @@
+{"version":3,"sources":["meteor://💻app/client/template.index.js"],"names":[],"mappings":"YAAA;AACA","file":"/client/template.index.js","sourcesContent":["\nMeteor.startup(function() { $('body').attr({\"layout\":\"column\"}); });\n"]}

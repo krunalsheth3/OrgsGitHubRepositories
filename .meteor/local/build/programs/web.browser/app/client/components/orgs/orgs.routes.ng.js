@@ -1,0 +1,11 @@
+(function(){'use strict';
+
+angular.module('orgReposApp').config(["$stateProvider", function ($stateProvider) {
+  $stateProvider.state('orgs', {
+    url: '/',
+    templateUrl: 'client/components/orgs/orgs.view.ng.html',
+    controller: 'OrgsCtrl'
+  });
+}]);
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9jbGllbnQvY29tcG9uZW50cy9vcmdzL29yZ3Mucm91dGVzLm5nLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLFlBQVksQ0FBQTs7QUFFWixPQUFPLENBQUMsTUFBTSxDQUFDLGFBQWEsQ0FBQyxDQUM1QixNQUFNLENBQUMsVUFBUyxjQUFjLEVBQUU7QUFDL0IsZ0JBQWMsQ0FDYixLQUFLLENBQUMsTUFBTSxFQUFFO0FBQ2IsT0FBRyxFQUFFLEdBQUc7QUFDUixlQUFXLEVBQUUsMENBQTBDO0FBQ3ZELGNBQVUsRUFBRSxVQUFVO0dBQ3ZCLENBQUMsQ0FBQztDQUNKLENBQUMsQ0FBQyIsImZpbGUiOiIvY2xpZW50L2NvbXBvbmVudHMvb3Jncy9vcmdzLnJvdXRlcy5uZy5qcyIsInNvdXJjZXNDb250ZW50IjpbIid1c2Ugc3RyaWN0J1xyXG5cclxuYW5ndWxhci5tb2R1bGUoJ29yZ1JlcG9zQXBwJylcclxuLmNvbmZpZyhmdW5jdGlvbigkc3RhdGVQcm92aWRlcikge1xyXG4gICRzdGF0ZVByb3ZpZGVyXHJcbiAgLnN0YXRlKCdvcmdzJywge1xyXG4gICAgdXJsOiAnLycsXHJcbiAgICB0ZW1wbGF0ZVVybDogJ2NsaWVudC9jb21wb25lbnRzL29yZ3Mvb3Jncy52aWV3Lm5nLmh0bWwnLFxyXG4gICAgY29udHJvbGxlcjogJ09yZ3NDdHJsJ1xyXG4gIH0pO1xyXG59KTsiXX0=
+}).call(this);

@@ -1,0 +1,21 @@
+(function(){Things = new Mongo.Collection('things');
+
+Things.allow({
+  insert: function insert(userId, thing) {
+    thing.createdAt = new Date();
+    thing.name_sort = thing.name.toLowerCase();
+    return true;
+  },
+  update: function update(userId, thing, fields, modifier) {
+    thing.createdAt = new Date();
+    thing.name_sort = thing.name.toLowerCase();
+    return true;
+  },
+  remove: function remove(userId, thing) {
+    return true;
+  }
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9tb2RlbC90aGluZ3MuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsTUFBTSxHQUFHLElBQUksS0FBSyxDQUFDLFVBQVUsQ0FBQyxRQUFRLENBQUMsQ0FBQzs7QUFFeEMsTUFBTSxDQUFDLEtBQUssQ0FBQztBQUNYLFFBQU0sRUFBRSxnQkFBUyxNQUFNLEVBQUUsS0FBSyxFQUFFO0FBQzlCLFNBQUssQ0FBQyxTQUFTLEdBQUcsSUFBSSxJQUFJLEVBQUUsQ0FBQztBQUM3QixTQUFLLENBQUMsU0FBUyxHQUFHLEtBQUssQ0FBQyxJQUFJLENBQUMsV0FBVyxFQUFFLENBQUM7QUFDM0MsV0FBTyxJQUFJLENBQUM7R0FDYjtBQUNELFFBQU0sRUFBRSxnQkFBUyxNQUFNLEVBQUUsS0FBSyxFQUFFLE1BQU0sRUFBRSxRQUFRLEVBQUU7QUFDaEQsU0FBSyxDQUFDLFNBQVMsR0FBRyxJQUFJLElBQUksRUFBRSxDQUFDO0FBQzdCLFNBQUssQ0FBQyxTQUFTLEdBQUcsS0FBSyxDQUFDLElBQUksQ0FBQyxXQUFXLEVBQUUsQ0FBQztBQUMzQyxXQUFPLElBQUksQ0FBQztHQUNiO0FBQ0QsUUFBTSxFQUFFLGdCQUFTLE1BQU0sRUFBRSxLQUFLLEVBQUU7QUFDOUIsV0FBTyxJQUFJLENBQUM7R0FDYjtDQUNGLENBQUMsQ0FBQyIsImZpbGUiOiIvbW9kZWwvdGhpbmdzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiVGhpbmdzID0gbmV3IE1vbmdvLkNvbGxlY3Rpb24oJ3RoaW5ncycpO1xyXG5cclxuVGhpbmdzLmFsbG93KHtcclxuICBpbnNlcnQ6IGZ1bmN0aW9uKHVzZXJJZCwgdGhpbmcpIHtcclxuICAgIHRoaW5nLmNyZWF0ZWRBdCA9IG5ldyBEYXRlKCk7XHJcbiAgICB0aGluZy5uYW1lX3NvcnQgPSB0aGluZy5uYW1lLnRvTG93ZXJDYXNlKCk7XHJcbiAgICByZXR1cm4gdHJ1ZTtcclxuICB9LFxyXG4gIHVwZGF0ZTogZnVuY3Rpb24odXNlcklkLCB0aGluZywgZmllbGRzLCBtb2RpZmllcikge1xyXG4gICAgdGhpbmcuY3JlYXRlZEF0ID0gbmV3IERhdGUoKTtcclxuICAgIHRoaW5nLm5hbWVfc29ydCA9IHRoaW5nLm5hbWUudG9Mb3dlckNhc2UoKTtcclxuICAgIHJldHVybiB0cnVlO1xyXG4gIH0sXHJcbiAgcmVtb3ZlOiBmdW5jdGlvbih1c2VySWQsIHRoaW5nKSB7XHJcbiAgICByZXR1cm4gdHJ1ZTtcclxuICB9XHJcbn0pOyJdfQ==
+}).call(this);
+
+//# sourceMappingURL=things.js.map
