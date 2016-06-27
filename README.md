@@ -5,8 +5,11 @@ How to run :
 1. Download repo
             - git clone or download ZIP this repo https://github.com/krunalsheth3/OrgsGitHubRepositories
 2. Run this executable file, which will install Meteor 2:  
+            ```bash
             - ./install_meteor.sh
-3.After confirming that meteor is successfully installed just run the project by this command
+            ```
+3. After confirming that meteor is successfully installed just run the project by this command
+            ```bash
             - meteor OR meteor run
             - this is your first time using Meteor!
             - Installing a Meteor distribution in your home directory.
@@ -20,5 +23,6 @@ How to run :
             - Started MongoDB.                           
             - Started your app.                          
             - App running at: http://localhost:3000/
+            ```
 
 
