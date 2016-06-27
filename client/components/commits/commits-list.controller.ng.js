@@ -8,31 +8,20 @@ angular.module('orgReposApp')
   $scope.orderProperty = '1';
 
 
+    $scope.showIndicator = true;
   /*
    * Fetch the list of commits for of that particular repo
    */
   $meteor.call('fetchCommits',$stateParams.orgName, $stateParams.repoName).then(
       function(data) {
+          $scope.showIndicator = false;
         console.log(data);
         $scope.commits = data;
       },
       function(err) {
+          $scope.showIndicator = false;
         console.log("Error in fetchRepos");
       }
   );
-
-})
-
-/*
- * Filter to perform limit to description text in Unified Dashboard
- */
-.filter('serviceInfoLimit', function() {
-  return function(input) {
-    if(input.length > 100) {
-      return input.substr(0, 100) + "<span id='filterMore'> ...</span>";
-    } else {
-      return input;
-    }
-  }
 
 })

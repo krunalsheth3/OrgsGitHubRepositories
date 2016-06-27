@@ -23,16 +23,19 @@ angular.module('orgReposApp')
   /*
    * Fetch the details of that particular ID
    */
+    $scope.showIndicator = true;
   $meteor.call('fetchRepos',$stateParams.repoId).then(
       function(data) {
+          $scope.showIndicator = false;
         console.log(data);
         $scope.repositories = data;
       },
       function(err) {
+          $scope.showIndicator = false;
         console.log("Error in fetchRepos");
       }
   );
-    
+
   // $scope.helpers({
   //   repo: function() {
   //     return Repos.findOne({ _id: $stateParams.repoId });
